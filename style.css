@@ -1,0 +1,170 @@
+@font-face {
+  font-family: myFont;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: myFont;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.blue-container {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 30px 30px;
+}
+.blue-container h1 {
+  color: hsl(0, 0%, 85%);
+  padding: 24px 0 24px;
+  font-size: 1.7em;
+}
+.blue-container .circle {
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: hsl(0, 0%, 75%);
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 24px;
+}
+.blue-container .circle span {
+  font-size: 3.8em;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+
+.blue-container h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.2em;
+  margin-bottom: 8px;
+}
+
+.blue-container p {
+  color: hsl(0, 0%, 85%);
+  font-size: 1.4em;
+  max-width: 16rem;
+  margin-bottom: 42px;
+}
+
+.white-container {
+  margin: 24px;
+  display: grid;
+}
+
+.white-container h2 {
+  margin-bottom: 24px;
+  justify-self: flex-start;
+  font-size: 1.8em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 24px;
+  background: hsl(224, 30%, 27%);
+  color: #fff;
+  font-size: 1.6em;
+  width: 100%;
+  border-radius: 30px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.white-container h3 {
+  display: flex;
+  align-items: center;
+}
+
+.white-container img {
+  padding: 6px;
+  margin-right: 4px;
+}
+
+.white-container ul li {
+  display: flex;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.white-container ul .red {
+  background-color: hsl(0, 100%, 97%);
+  color: hsl(0, 100%, 67%);
+  font-size: 1.2em;
+}
+
+.white-container ul .yellow {
+  background-color: hsl(39, 100%, 97%);
+  color: hsl(39, 100%, 56%);
+  font-size: 1.2em;
+}
+
+.white-container ul .green {
+  background-color: hsl(166, 100%, 97%);
+  color: hsl(166, 100%, 37%);
+  font-size: 1.2em;
+}
+
+.white-container ul .blue {
+  background-color: hsl(234, 85%, 97%);
+  color: hsl(234, 85%, 45%);
+  font-size: 1.2em;
+}
+
+.white-container p {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.white-container p span {
+  color: hsl(224, 30%, 70%);
+}
+
+@media (min-width: 650px) {
+  .attribution {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .blue-container {
+    padding: 0 24px;
+    border-radius: 35px;
+    padding-bottom: 36px;
+  }
+
+  .blue-container p {
+    color: hsl(0, 0%, 85%);
+    font-size: 1.4em;
+    max-width: 14rem;
+    margin: 0;
+  }
+}
